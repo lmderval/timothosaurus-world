@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "maple_syrup",
+  "ingredient": {
+    "item": "timothosaurus-world:maple_sap"
+  },
+  "result": {
+    "id": "timothosaurus-world:maple_syrup"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "effect.timothosaurus-world.addiction": "Addiction",
+  "effect.timothosaurus-world.addicted": "Addicted",
+  "effect.timothosaurus-world.tastiness": "Tastiness",
+
+  "item.timothosaurus-world.schoko-bons": "Schoko-Bons",
+  "item.timothosaurus-world.treetap": "Treetap",
+  "item.timothosaurus-world.zaza_leaf": "Zaza Leaf",
+  "item.timothosaurus-world.zaza_powder": "Zaza Powder",
+  "item.timothosaurus-world.maple_sap": "Maple Sap",
+  "item.timothosaurus-world.maple_syrup": "Maple Syrup",
+  "item.timothosaurus-world.timothosaurus_spawn_egg": "Timothosaurus Spawn Egg",
+
+  "item.minecraft.potion.effect.addiction": "Potion of Addiction",
+  "item.minecraft.splash_potion.effect.addiction": "Splash Potion of Addiction",
+  "item.minecraft.lingering_potion.effect.addiction": "Lingering Potion of Addiction",
+  "item.minecraft.tipped_arrow.effect.addiction": "Arrow of Addiction",
+
+  "block.timothosaurus-world.maple_log": "Maple Log",
+  "block.timothosaurus-world.maple_wood": "Maple Wood",
+  "block.timothosaurus-world.stripped_maple_log": "Stripped Maple Log",
+  "block.timothosaurus-world.stripped_maple_wood": "Stripped Maple Wood",
+  "block.timothosaurus-world.maple_planks": "Maple Planks",
+  "block.timothosaurus-world.maple_leaves": "Maple Leaves",
+  "block.timothosaurus-world.maple_sapling": "Maple Sapling",
+
+  "entity.timothosaurus-world.timothosaurus": "Timothosaurus",
+
+  "enchantment.timothosaurus-world.tap_fortune": "Tap Fortune"
+}

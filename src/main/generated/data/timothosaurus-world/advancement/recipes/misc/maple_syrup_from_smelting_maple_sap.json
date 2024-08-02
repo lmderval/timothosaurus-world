@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_maple_sap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timothosaurus-world:maple_sap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:maple_syrup_from_smelting_maple_sap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_maple_sap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:maple_syrup_from_smelting_maple_sap"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "timothosaurus-world:block/stripped_maple_log",
+    "side": "timothosaurus-world:block/stripped_maple_log"
+  }
+}

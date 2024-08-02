@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.torpill.timothosaurus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PotionMixin",
+    "StructureTypeInvoker",
+    "TrunkPlacerTypeInvoker",
+    "VillagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

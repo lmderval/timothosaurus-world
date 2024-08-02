@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,sap=false": {
+      "model": "timothosaurus-world:block/maple_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,sap=true": {
+      "model": "timothosaurus-world:block/maple_log_horizontal_sap",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,sap=false": {
+      "model": "timothosaurus-world:block/maple_log"
+    },
+    "axis=y,sap=true": {
+      "model": "timothosaurus-world:block/maple_log_sap"
+    },
+    "axis=z,sap=false": {
+      "model": "timothosaurus-world:block/maple_log_horizontal",
+      "x": 90
+    },
+    "axis=z,sap=true": {
+      "model": "timothosaurus-world:block/maple_log_horizontal_sap",
+      "x": 90
+    }
+  }
+}

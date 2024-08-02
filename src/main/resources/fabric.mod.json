@@ -1,31 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "timothosorus-world",
+	"id": "timothosaurus-world",
 	"version": "${version}",
-	"name": "Timothosorus World",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Timothosaurus World",
+	"description": "Ayaaa!",
 	"authors": [
-		"Me!"
+		"Louis-Maël DERVAL"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/timothosorus-world/icon.png",
+	"icon": "assets/timothosaurus-world/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"fabric-datagen": [
+			"com.torpill.timothosaurus.TimothosaurusWorldDataGenerator"
+		],
 		"main": [
-			"com.torpill.timothosorus.TimothosorusWorld"
+          "com.torpill.timothosaurus.TimothosaurusWorld"
 		],
 		"client": [
-			"com.torpill.timothosorus.TimothosorusWorldClient"
+          "com.torpill.timothosaurus.TimothosaurusWorldClient"
 		]
 	},
 	"mixins": [
-		"timothosorus-world.mixins.json",
+		"timothosaurus-world.mixins.json",
 		{
-			"config": "timothosorus-world.client.mixins.json",
+			"config": "timothosaurus-world.client.mixins.json",
 			"environment": "client"
 		}
 	],

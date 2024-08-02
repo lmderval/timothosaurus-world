@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "timothosaurus-world:maple_wood"
+    },
+    {
+      "item": "timothosaurus-world:maple_wood"
+    },
+    {
+      "item": "timothosaurus-world:maple_wood"
+    },
+    {
+      "item": "timothosaurus-world:maple_wood"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "timothosaurus-world:maple_wood"
+  }
+}

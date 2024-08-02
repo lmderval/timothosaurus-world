@@ -22,12 +22,16 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"timothosorus-world" {
+		"timothosaurus-world" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
 	}
 
+}
+
+fabricApi {
+	configureDataGeneration()
 }
 
 dependencies {
