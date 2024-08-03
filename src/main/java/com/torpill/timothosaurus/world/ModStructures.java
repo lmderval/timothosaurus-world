@@ -1,6 +1,7 @@
 package com.torpill.timothosaurus.world;
 
 import com.torpill.timothosaurus.TimothosaurusWorld;
+import com.torpill.timothosaurus.tags.ModTags;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryEntryLookup;
 import net.minecraft.registry.RegistryKey;
@@ -25,7 +26,7 @@ public class ModStructures {
         RegistryEntryLookup<Biome> biomeRegistryLookup = context.getRegistryLookup(RegistryKeys.BIOME);
         RegistryEntryLookup<StructurePool> templatePoolRegistryLookup = context.getRegistryLookup(RegistryKeys.TEMPLATE_POOL);
         register(context, ZAZA_HOUSE, new JigsawStructure(
-                new Structure.Config.Builder(biomeRegistryLookup.getOrThrow(BiomeTags.IS_TAIGA))
+                new Structure.Config.Builder(biomeRegistryLookup.getOrThrow(ModTags.HAS_ZAZA_HOUSE))
                         .terrainAdaptation(StructureTerrainAdaptation.BEARD_THIN)
                         .build(),
                 templatePoolRegistryLookup.getOrThrow(ModTemplatePools.ZAZA_HOUSE),

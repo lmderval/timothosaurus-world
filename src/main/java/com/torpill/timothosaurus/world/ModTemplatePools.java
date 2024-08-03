@@ -29,7 +29,7 @@ public class ModTemplatePools {
         ));
         register(context, ZAZA_ROADS, new StructurePool(
                 templatePoolEntryLookup.getOrThrow(StructurePools.EMPTY),
-                Stream.of(Pair.of("extension1", 1), Pair.of("extension2", 4), Pair.of("extension3", 2), Pair.of("extension4", 2), Pair.of("road1", 4), Pair.of("road2", 2), Pair.of("road3", 2))
+                Stream.of(Pair.of("extension1", 1), Pair.of("extension2", 4), Pair.of("extension3", 2), Pair.of("extension4", 2), Pair.of("road1", 5), Pair.of("road2", 2), Pair.of("road3", 2), Pair.of("road4", 1))
                         .map(weightedPath -> new Pair<>((StructurePoolElement) StructurePoolElement.ofProcessedSingle(Identifier.of(TimothosaurusWorld.MOD_ID, "zaza_house/" + weightedPath.getFirst()).toString(), processorListEntryLookup.getOrThrow(StructureProcessorLists.STREET_PLAINS)).apply(StructurePool.Projection.TERRAIN_MATCHING), weightedPath.getSecond()))
                         .collect(Collectors.toList())
         ));

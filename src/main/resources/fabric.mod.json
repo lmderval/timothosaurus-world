@@ -1,44 +1,47 @@
 {
-	"schemaVersion": 1,
-	"id": "timothosaurus-world",
-	"version": "${version}",
-	"name": "Timothosaurus World",
-	"description": "Ayaaa!",
-	"authors": [
-		"Louis-Maël DERVAL"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/timothosaurus-world/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"fabric-datagen": [
-			"com.torpill.timothosaurus.TimothosaurusWorldDataGenerator"
-		],
-		"main": [
-          "com.torpill.timothosaurus.TimothosaurusWorld"
-		],
-		"client": [
-          "com.torpill.timothosaurus.TimothosaurusWorldClient"
-		]
-	},
-	"mixins": [
-		"timothosaurus-world.mixins.json",
-		{
-			"config": "timothosaurus-world.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "timothosaurus-world",
+  "version": "${version}",
+  "name": "Timothosaurus World",
+  "description": "Ayaaa!",
+  "authors": [
+    "Louis-Maël DERVAL"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/timothosaurus-world/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.torpill.timothosaurus.TimothosaurusWorldDataGenerator"
+    ],
+    "main": [
+      "com.torpill.timothosaurus.TimothosaurusWorld"
+    ],
+    "client": [
+      "com.torpill.timothosaurus.TimothosaurusWorldClient"
+    ],
+    "terrablender":[
+      "com.torpill.timothosaurus.world.biome.ModTerraBlenderApi"
+    ]
+  },
+  "mixins": [
+    "timothosaurus-world.mixins.json",
+    {
+      "config": "timothosaurus-world.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }

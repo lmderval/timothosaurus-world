@@ -6,6 +6,7 @@ import com.torpill.timothosaurus.entities.ModEntities;
 import com.torpill.timothosaurus.items.ModItems;
 import com.torpill.timothosaurus.loot_tables.ModLootTables;
 import com.torpill.timothosaurus.potions.ModPotions;
+import com.torpill.timothosaurus.tags.ModTags;
 import com.torpill.timothosaurus.world.tree.ModTrunkPlacerTypes;
 import net.fabricmc.api.ModInitializer;
 
@@ -26,6 +27,8 @@ public class TimothosaurusWorld implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Initializing Timothosaurus World");
+
+		ModTags.initialize();
 		ModEffects.initialize();
 		ModItems.initialize();
 		ModBlocks.initialize();
