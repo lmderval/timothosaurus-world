@@ -1,8 +1,12 @@
 package com.torpill.timothosaurus.items;
 
 import com.torpill.timothosaurus.TimothosaurusWorld;
+import com.torpill.timothosaurus.blocks.ModBlocks;
+import com.torpill.timothosaurus.effects.ModEffects;
 import com.torpill.timothosaurus.entities.ModEntities;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.type.FoodComponent;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,7 +15,15 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SCHOKO_BONS = register(new SchokoBonsItem(new Item.Settings()), "schoko-bons");
-    public static final Item ZAZA_LEAF = register(new Item(new Item.Settings()), "zaza_leaf");
+    public static final Item ZAZA_LEAF = register(
+            new AliasedBlockItem(ModBlocks.ZAZA_CROP, new Item.Settings()
+                    .food(new FoodComponent.Builder()
+                            .alwaysEdible()
+                            .nutrition(1)
+                            .statusEffect(new StatusEffectInstance(ModEffects.ADDICTED, 30 * 20, 0), 1.0f)
+                            .build())
+            ), "zaza_leaf"
+    );
     public static final Item ZAZA_POWDER = register(new Item(new Item.Settings()), "zaza_powder");
     public static final Item MAPLE_SAP = register(new Item(new Item.Settings()), "maple_sap");
     public static final Item MAPLE_SYRUP = register(new Item(new Item.Settings()), "maple_syrup");

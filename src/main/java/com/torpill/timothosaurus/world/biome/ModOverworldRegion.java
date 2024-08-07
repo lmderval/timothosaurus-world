@@ -27,9 +27,9 @@ public class ModOverworldRegion extends Region {
                 .temperature(ParameterUtils.Temperature.COOL)
                 .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.DRY, ParameterUtils.Humidity.NEUTRAL))
                 .continentalness(ParameterUtils.Continentalness.FAR_INLAND)
-                .erosion(ParameterUtils.Erosion.span(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_2))
-                .depth(ParameterUtils.Depth.span(ParameterUtils.Depth.SURFACE, ParameterUtils.Depth.FLOOR))
-                .weirdness(ParameterUtils.Weirdness.VALLEY)
+                .erosion(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_2, ParameterUtils.Erosion.EROSION_5)
+                .depth(ParameterUtils.Depth.SURFACE, ParameterUtils.Depth.FLOOR)
+                .weirdness(ParameterUtils.Weirdness.LOW_SLICE_VARIANT_ASCENDING, ParameterUtils.Weirdness.LOW_SLICE_NORMAL_DESCENDING)
                 .build()
                 .forEach(point -> builder.add(point, ModBiomes.MAPLE_FOREST));
 

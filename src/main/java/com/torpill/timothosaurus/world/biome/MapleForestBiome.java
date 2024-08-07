@@ -20,9 +20,9 @@ public class MapleForestBiome {
         RegistryEntryLookup<ConfiguredCarver<?>> configuredCarverEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER);
 
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
-        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(ModEntities.TIMOTHOSAURUS, 1, 2, 3));
-        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.CHICKEN, 5, 4, 6));
-        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 2, 3, 5));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(ModEntities.TIMOTHOSAURUS, 2, 2, 3));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.CHICKEN, 10, 4, 6));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 3, 5));
 
         DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
 

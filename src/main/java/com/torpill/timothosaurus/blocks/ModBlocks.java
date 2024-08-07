@@ -24,6 +24,8 @@ public class ModBlocks {
 
     public static final Block MAPLE_SAPLING = register(new SaplingBlock(ModSaplingGenerator.MAPLE, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)), "maple_sapling", true);
 
+    public static final Block ZAZA_CROP = register(new ZazaCropBlock(AbstractBlock.Settings.copy(Blocks.CARROTS)), "zaza", false);
+
     public static Block register(Block block, String id, boolean registerItem) {
         Identifier blockID = Identifier.of(TimothosaurusWorld.MOD_ID, id);
         if (registerItem) {

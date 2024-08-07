@@ -1,8 +1,11 @@
-// 1.21	2024-08-03T11:26:19.861141549	Timothosaurus World/Model Definitions
+// 1.21	2024-08-06T22:04:11.351216813	Timothosaurus World/Model Definitions
 35f170aa4b77bb9890cc0d94edd3b0619bb44db3 assets/timothosaurus-world/models/block/maple_sapling.json
+5d6760a6425779ec63e7a77cad60b966a4baec0c assets/timothosaurus-world/models/block/zaza_stage2.json
 0b7420b378b66f9466938c5d3e38671593fe20da assets/timothosaurus-world/models/block/stripped_maple_log.json
 4caba204d0be48719fe0225870aa5a9d43871622 assets/timothosaurus-world/models/block/maple_log_sap.json
+6e544e4ef5d5370a2e179ae7c7eac0c427e400d8 assets/timothosaurus-world/models/block/zaza_stage5.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/timothosaurus-world/models/item/timothosaurus_spawn_egg.json
+1e12cebfd540eb38e66e5ca0c8fc69c88f30be72 assets/timothosaurus-world/blockstates/zaza.json
 9a80f55eb30c3c108516b09dd058d7e4a2ace2a6 assets/timothosaurus-world/models/block/maple_wood.json
 a784474a15fbef343f8090d1220a50486a3bcace assets/timothosaurus-world/models/item/treetap.json
 e3e63e850c9c6e75b8c15ebf4420dc11701af682 assets/timothosaurus-world/models/block/stripped_maple_wood.json
@@ -11,6 +14,9 @@ e3e63e850c9c6e75b8c15ebf4420dc11701af682 assets/timothosaurus-world/models/block
 f604ef0537cd25784098e905d5ed92d2fc2d73e2 assets/timothosaurus-world/models/item/maple_leaves.json
 e69b0b2c409d262bd23f81eee3a3a50b425aa1ed assets/timothosaurus-world/models/block/stripped_maple_log_horizontal.json
 56fa7a89f8b52f032b9e0dca52356decfe1b4e3f assets/timothosaurus-world/models/item/stripped_maple_log.json
+abc36f064729b0f6eb68da306034c2fef788a5f2 assets/timothosaurus-world/models/block/zaza_stage4.json
+23c26413ca6a713293f436e6b7ebaf754c248886 assets/timothosaurus-world/models/block/zaza_stage0.json
+ab16a1e421c29d96b94ba3b2b0cf3989bff333cd assets/timothosaurus-world/models/block/zaza_stage1.json
 a1872c9579e5049e3be94b186e47e22308e174d9 assets/timothosaurus-world/models/item/maple_sapling.json
 a9fb80662a7b7add4025115a940420d93009f840 assets/timothosaurus-world/blockstates/maple_sapling.json
 6c020c4d592a7bc8731d0cdfb711995c6c0f2be7 assets/timothosaurus-world/models/item/maple_log.json
@@ -23,6 +29,7 @@ ab9383d0e454d6760e3caac69eceaf3e8eb30535 assets/timothosaurus-world/blockstates/
 15f0206922c47d40f1534000dd859cca0bdbd024 assets/timothosaurus-world/models/item/zaza_leaf.json
 1d5807371c145601e067c815686cae0b70d1c227 assets/timothosaurus-world/blockstates/stripped_maple_wood.json
 089ed7c64e17fb74a3218c53146351fde6f01442 assets/timothosaurus-world/models/item/maple_wood.json
+5bd7bd17de19cc69aef47c18eee6cbf541a03e76 assets/timothosaurus-world/models/block/zaza_stage3.json
 1fc8443df36aacf3e67c6517e4b2e3b9102cd343 assets/timothosaurus-world/models/block/maple_leaves.json
 d651bb9f9afab0307509a890eb2ca90708b90ed6 assets/timothosaurus-world/models/item/stripped_maple_wood.json
 17e6cf14951449ee57498dfb425964f836f4be45 assets/timothosaurus-world/models/block/maple_planks.json

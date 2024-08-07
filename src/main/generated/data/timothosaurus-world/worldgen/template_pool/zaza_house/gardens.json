@@ -9,6 +9,17 @@
         },
         "projection": "rigid"
       },
+      "weight": 9
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "timothosaurus-world:zaza_house/garden2",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
       "weight": 1
     }
   ],

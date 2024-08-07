@@ -96,19 +96,19 @@
         "type": "timothosaurus-world:timothosaurus",
         "maxCount": 3,
         "minCount": 2,
-        "weight": 1
+        "weight": 2
       },
       {
         "type": "minecraft:chicken",
         "maxCount": 6,
         "minCount": 4,
-        "weight": 5
+        "weight": 10
       },
       {
         "type": "minecraft:wolf",
         "maxCount": 5,
         "minCount": 3,
-        "weight": 2
+        "weight": 5
       }
     ],
     "misc": [],

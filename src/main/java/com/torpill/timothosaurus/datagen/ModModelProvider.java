@@ -3,6 +3,7 @@ package com.torpill.timothosaurus.datagen;
 import com.torpill.timothosaurus.TimothosaurusWorld;
 import com.torpill.timothosaurus.blocks.MapleLogBlock;
 import com.torpill.timothosaurus.blocks.ModBlocks;
+import com.torpill.timothosaurus.blocks.ZazaCropBlock;
 import com.torpill.timothosaurus.items.ModItems;
 import com.torpill.timothosaurus.items.model.DisplayModel;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -69,13 +70,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_LEAVES);
         blockStateModelGenerator.registerTintableCross(ModBlocks.MAPLE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerCrop(ModBlocks.ZAZA_CROP, ZazaCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Generated
         itemModelGenerator.register(ModItems.SCHOKO_BONS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.ZAZA_LEAF, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZAZA_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SAP, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);

@@ -24,7 +24,7 @@ public class ModPlacedFeatures {
 
         register(context, TREES_MAPLE, configuredFeatureEntryLookup.getOrThrow(ModConfiguredFeatures.MAPLE),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
-                        PlacedFeatures.createCountExtraModifier(2, 0.02f, 1),
+                        PlacedFeatures.createCountExtraModifier(3, 0.02f, 1),
                         ModBlocks.MAPLE_SAPLING
                 )
         );
