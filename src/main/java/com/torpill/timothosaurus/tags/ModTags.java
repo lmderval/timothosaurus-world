@@ -10,6 +10,7 @@ import net.minecraft.world.biome.Biome;
 
 public class ModTags {
     public static final TagKey<Biome> HAS_ZAZA_HOUSE = create(RegistryKeys.BIOME, "has_zaza_house");
+    public static final TagKey<Biome> HAS_SEX_TEMPLE = create(RegistryKeys.BIOME, "has_sex_temple");
 
     public static void initialize() {
         TimothosaurusWorld.LOGGER.info("Initializing Mod Tags");

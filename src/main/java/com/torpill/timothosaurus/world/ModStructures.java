@@ -18,18 +18,29 @@ import net.minecraft.world.gen.structure.Structure;
 
 public class ModStructures {
     public static final RegistryKey<Structure> ZAZA_HOUSE = registerKey("zaza_house");
+    public static final RegistryKey<Structure> SEX_TEMPLE = registerKey("sex_temple");
 
     public static void bootstrap(Registerable<Structure> context) {
         RegistryEntryLookup<Biome> biomeRegistryLookup = context.getRegistryLookup(RegistryKeys.BIOME);
         RegistryEntryLookup<StructurePool> templatePoolRegistryLookup = context.getRegistryLookup(RegistryKeys.TEMPLATE_POOL);
         register(context, ZAZA_HOUSE, new JigsawStructure(
                 new Structure.Config.Builder(biomeRegistryLookup.getOrThrow(ModTags.HAS_ZAZA_HOUSE))
-                        .terrainAdaptation(StructureTerrainAdaptation.BEARD_THIN)
+                        .terrainAdaptation(StructureTerrainAdaptation.BEARD_BOX)
                         .build(),
                 templatePoolRegistryLookup.getOrThrow(ModTemplatePools.ZAZA_HOUSE),
                 20,
                 ConstantHeightProvider.create(YOffset.fixed(0)),
                 false,
+                Heightmap.Type.WORLD_SURFACE_WG
+        ));
+        register(context, SEX_TEMPLE, new JigsawStructure(
+                new Structure.Config.Builder(biomeRegistryLookup.getOrThrow(ModTags.HAS_SEX_TEMPLE))
+                        .terrainAdaptation(StructureTerrainAdaptation.BEARD_BOX)
+                        .build(),
+                templatePoolRegistryLookup.getOrThrow(ModTemplatePools.SEX_TEMPLE),
+                9,
+                ConstantHeightProvider.create(YOffset.fixed(0)),
+                true,
                 Heightmap.Type.WORLD_SURFACE_WG
         ));
     }

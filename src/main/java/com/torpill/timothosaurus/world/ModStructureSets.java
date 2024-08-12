@@ -24,6 +24,7 @@ import java.util.Optional;
 
 public class ModStructureSets {
     public static final RegistryKey<StructureSet> ZAZA_HOUSE = registerKey("zaza_house");
+    public static final RegistryKey<StructureSet> SEX_TEMPLE = registerKey("sex_temple");
 
     public static void bootstrap(Registerable<StructureSet> context) {
         RegistryEntryLookup<Structure> structureEntryLookup = context.getRegistryLookup(RegistryKeys.STRUCTURE);
@@ -31,7 +32,12 @@ public class ModStructureSets {
         register(context, ZAZA_HOUSE,
                 List.of(StructureSet.createEntry(structureEntryLookup.getOrThrow(ModStructures.ZAZA_HOUSE))),
                 new RandomSpreadStructurePlacement(Vec3i.ZERO, StructurePlacement.FrequencyReductionMethod.DEFAULT, 1.0f, 30875816,
-                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 5, 2, SpreadType.LINEAR)
+                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 20, 2, SpreadType.LINEAR)
+        );
+        register(context, SEX_TEMPLE,
+                List.of(StructureSet.createEntry(structureEntryLookup.getOrThrow(ModStructures.SEX_TEMPLE))),
+                new RandomSpreadStructurePlacement(Vec3i.ZERO, StructurePlacement.FrequencyReductionMethod.DEFAULT, 0.2f, 30875817,
+                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 20, 2, SpreadType.LINEAR)
         );
     }
 

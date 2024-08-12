@@ -5,13 +5,14 @@
       "chunk_count": 8,
       "other_set": "minecraft:villages"
     },
-    "salt": 30875816,
+    "frequency": 0.2,
+    "salt": 30875817,
     "separation": 2,
     "spacing": 20
   },
   "structures": [
     {
-      "structure": "timothosaurus-world:zaza_house",
+      "structure": "timothosaurus-world:sex_temple",
       "weight": 1
     }
   ]
