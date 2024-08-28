@@ -32,12 +32,12 @@ public class ModStructureSets {
         register(context, ZAZA_HOUSE,
                 List.of(StructureSet.createEntry(structureEntryLookup.getOrThrow(ModStructures.ZAZA_HOUSE))),
                 new RandomSpreadStructurePlacement(Vec3i.ZERO, StructurePlacement.FrequencyReductionMethod.DEFAULT, 1.0f, 30875816,
-                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 20, 2, SpreadType.LINEAR)
+                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 24, 14, SpreadType.LINEAR)
         );
         register(context, SEX_TEMPLE,
                 List.of(StructureSet.createEntry(structureEntryLookup.getOrThrow(ModStructures.SEX_TEMPLE))),
-                new RandomSpreadStructurePlacement(Vec3i.ZERO, StructurePlacement.FrequencyReductionMethod.DEFAULT, 0.2f, 30875817,
-                        Optional.of(new StructurePlacement.ExclusionZone(structureSetEntryLookup.getOrThrow(StructureSetKeys.VILLAGES), 8)), 20, 2, SpreadType.LINEAR)
+                new RandomSpreadStructurePlacement(Vec3i.ZERO, StructurePlacement.FrequencyReductionMethod.DEFAULT, 1.0f, 30875817,
+                        Optional.empty(), 64, 12, SpreadType.LINEAR)
         );
     }
 

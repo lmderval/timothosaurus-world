@@ -25,7 +25,7 @@ public class ModStructures {
         RegistryEntryLookup<StructurePool> templatePoolRegistryLookup = context.getRegistryLookup(RegistryKeys.TEMPLATE_POOL);
         register(context, ZAZA_HOUSE, new JigsawStructure(
                 new Structure.Config.Builder(biomeRegistryLookup.getOrThrow(ModTags.HAS_ZAZA_HOUSE))
-                        .terrainAdaptation(StructureTerrainAdaptation.BEARD_BOX)
+                        .terrainAdaptation(StructureTerrainAdaptation.BEARD_THIN)
                         .build(),
                 templatePoolRegistryLookup.getOrThrow(ModTemplatePools.ZAZA_HOUSE),
                 20,
@@ -40,7 +40,7 @@ public class ModStructures {
                 templatePoolRegistryLookup.getOrThrow(ModTemplatePools.SEX_TEMPLE),
                 9,
                 ConstantHeightProvider.create(YOffset.fixed(0)),
-                true,
+                false,
                 Heightmap.Type.WORLD_SURFACE_WG
         ));
     }

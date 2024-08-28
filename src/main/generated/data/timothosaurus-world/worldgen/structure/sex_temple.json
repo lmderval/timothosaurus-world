@@ -11,5 +11,5 @@
   "start_pool": "timothosaurus-world:sex_temple/temple",
   "step": "surface_structures",
   "terrain_adaptation": "beard_box",
-  "use_expansion_hack": true
+  "use_expansion_hack": false
 }
